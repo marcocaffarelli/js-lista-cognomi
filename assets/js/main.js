@@ -1,5 +1,7 @@
 var cognomeUtente = prompt("Inserisci il tuo Cognome");
 //console.log("cognomeUtente");
+cognomeUtente = cognomeUtente.toUpperCase()
+// console.log(cognomeUtente);
 // array cognomi
 var cognomi = [
   "Bianchi",
@@ -15,4 +17,8 @@ cognomi.push(cognomeUtente)
 
 // ordinare alfabeticamente la l'array
 cognomi.sort()
-console.log(cognomi);
+// console.log(cognomi);
+
+// posizione del cognome utente nella lista
+var posizione = cognomi.indexOf(cognomeUtente)
+console.log(posizione);
