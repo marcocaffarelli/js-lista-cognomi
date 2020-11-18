@@ -9,6 +9,10 @@ var cognomi = [
   "Balsano"
 ]
 
-// aggiungere cognome all array
+// aggiungere cognome all'array
 cognomi.push(cognomeUtente)
 // console.log(cognomi);
+
+// ordinare alfabeticamente la l'array
+cognomi.sort()
+console.log(cognomi);
